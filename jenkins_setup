@@ -1,0 +1,9 @@
+docker run -p 8080:8080 -p 5000:5000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+
+docker ps
+
+docker logs c77bddbcbc65
+
+password - 9c97f13decd44c24b103fd0c4914af23
+
+login -admin/admin
